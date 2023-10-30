@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body {
+  font-family: "Poppins";
+  background-color: #272727;
+  color: #D4AA7D;
+  text-align: center;
+  padding: 25px;
+}
+
+h1 {
+  font-family: "Roboto Condensed";
+  color: #efd09e;
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #d2d8b3;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #90a9b7;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: #272727;
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #90a9b7;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#profile-pic {
+  width: 130px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#container {
+  width:100%;
+  max-width:1024px; /*En fazla 1024px olsun  ama  yukardaki width özelliğim de  geçerli olsun*/
+  height:auto;
+  min-height:500px;
+  margin:auto; /* tam ekran olmayan  1024px'lik divi ortalamak için*/
+  }
